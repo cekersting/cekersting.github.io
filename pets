@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>All About My Pets</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Quicksand|Actor">
+        <style>
+            body {
+                position:absolute;
+            }
+            .not-table{
+                float:none;
+            }
+            h1{
+                color: rgb(0, 230, 255);
+                text-align:center;
+            }
+            h2{
+                color: darkcyan;
+                font-family:"Verdana",sans;
+                font-size:1.25em;
+            }
+            thead {
+                color: blue;
+                font-family:serif;
+            }
+            tbody {
+                color: green;
+                font-family:"Google Sans","Quicksand",sans;
+            }
+            table {
+                border:4px solid rgb(214, 209, 255);
+                border-collapse:collapse;
+            }
+            th {
+                border:4px solid rgb(214,209,255);
+            }
+            td {
+                border:4px solid rgb(214,209,255);
+            }
+            a {
+                color: rgb(99, 189, 130);
+            }
+            #fip-info {
+                font-size:0.780em;
+                font-style:italic;
+                font-family:"Actor",sans;
+            }
+            #back-to-top {
+                font-variant:small-caps;
+                font-family:"Audiowide",sans;
+            }
+            #top {
+                font-family:"Quicksand";
+                font-size:1em;
+                font-weight:bold;
+                color:rgb(0,230,255);
+                text-align:center;
+                line-height:0.25em;
+                margin-bottom:-1em;
+            }
+            body {
+                background-color:rgb(250,250,250);
+            }
+            p {
+                text-align:justify;
+            }
+            .did-you-know {
+                float:right;
+                text-align:center;
+                width:35%;
+                background-color:rgb(140, 166, 171);
+                padding:0px 10px 2px 10px;
+                margin:0px 0px 0px 12px;
+            }
+            .did-you-know:focus, .did-you-know:hover, .did-you-know:active {
+                background-color:rgb(100, 160, 170);
+            }
+            p.did-you-know {
+                text-align:justify;
+            }
+        </style>
+    </head>
+    <body>
+        <h5 id="top">ckersting's</h5>
+        <h1>All About My Pets</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Pet name</th>
+                    <th>Species</th>
+                    <th>Breed</th>
+                    <th>Color</th>
+                    <th>Birthday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#all-about-sammy">Sammy</a></td>
+                    <td>Dog</td>
+                    <td>Golden Retriever</td>
+                    <td>reddish gold</td>
+                    <td>June 27th</td>
+                </tr>
+                <tr>
+                    <td><a href="#all-about-kc">KC</a></td>
+                    <td>Cat</td>
+                    <td>Maine Coon</td>
+                    <td>orange</td>
+                    <td>unknown (May 1st)</td>
+                </tr>
+                <tr>
+                    <td><a href="#all-about-charlie">Charlie</a></td>
+                    <td>Dog</td>
+                    <td>Golden Retriever</td>
+                    <td>yellow gold</td>
+                    <td>November 17th</td>
+                </tr>
+                <tr>
+                    <td><a href="#all-about-callie">Callie</a></td>
+                    <td>Cat</td>
+                    <td>Siamese Ragdoll (calico)</td>
+                    <td>brown, orange, white</td>
+                    <td>September 10th</td>
+                </tr>
+                <tr>
+                    <td><a href="#all-about-lily">Lily</a></td>
+                    <td>Cat</td>
+                    <td>Siamese Ragdoll</td>
+                    <td>white, gray</td>
+                    <td>September 10th</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!--All About Sammy-->
+        <div class="not-table"><br><h2 id="all-about-sammy">All About Sammy</h2>
+        <p>Sammy is a 7-year-old Golden Retriever (<em>Canis lupus familiaris</em>). He is a very pretty pup. Because he is so old, his back is streaked with gray. However, when he was younger, there was not a silver streak in sight! He is the older brother to <a href="#all-about-charlie">Charlie</a>.</p>
+        
+        <!--All About KC-->
+        <br><h2 id="all-about-kc">All About KC</h2>
+        <p>KC was an <em>old</em> man! He was a nineteen-year-old longhair Maine Coon (<em>Felis catus</em>). He was arthritic and had bladder issues when he was put down in December 2017. He was a very pretty cat, all orange with a tuft of white on his poofy tail.</p>
+        
+        <!--All About Charlie-->
+        <br><h2 id="all-about-charlie">All About Charlie</h2>
+        <p>Charlie is a beautiful Golden (<em>Canis lupus familiaris</em>), and brother to <a href="#all-about-sammy">Sammy</a>. He isn't as red as his brother; he is more yellow, as the name implies. Charlie has an infinite amount of energy. He loves playing fetch and chasing people around. He would never hurt you. He just wants to be your friend!</p></div><br>
+        
+        <!--Did you know...?-->
+        <div class="did-you-know"><h3>Did you know...?</h3>
+        <p>Did you know that calico cats are not an actual cat breed? Actually, a calico cat is any domestic cat breed with tri-color fur. Our cat Callie, though a Siamese Ragdoll, has a calico coat. This is a genetic mutation, much like what changes the appearence of albino animals. The mutation has been studied since the 1940s, and it has been discovered that one of the X chromosomes in calico cats "shuts off." This is why most calicoes are female, and the rare males are sterile.</p></div>
+        
+        <!--All About Callie-->
+        <div id="all-about-callie" class="not-table"><h2>All About Callie</h2>
+        <p>I learned <em>so much</em> about cat viruses from Callie. But before we get there, let me introdue you to her. Callie is a 1-year-old Siamese Ragdoll. She is the <del>snooty</del> sister of <a href="#all-about-lily">Lily</a>! Callie has quite and interesting story.</p>
+        <p>In February 2020, Callie was acting weird. It wasn't the typical cat-ness that we were used to. So, my parents took her to the vet. She was diagnosed with FIP, a fatal feline disease. We knew she didn't have long left to live. Our vet gave us some advice: look for "black market" medication.</p>
+        <p>She couldn't prescribe it, because it isn't approved by the US FDA, but we were glad she mentioned it. After 48 hours of trying this strange medication, Callie was back to her normal, feisty self! The medication requires 3 months of treatment and 3 more months of watching to make sure it doesn't relapse. As of September 2020, Callie was considered FIP-free!</p>
+        <p id="fip-info">Note from the author: <br>FIP stands for Feline Infectious Peritonitis. It is a mutation of the feline coronavius (FCoV). FIP is a rare virus for which there is no cure. However, there is a potential treatment out there. It just hasn't been approved by the US FDA yet. We used a Chinese supplier, Mutian, for the treatment. <br>Click <a href="https://pets.webmd.com/cats/cat-fip-feline-infectious-peritonitis#1" target="_blank">here</a> to learn more about FIP. You can find the Mutian website <a href="https://www.mutian.com" target="_blank">here</a>.</p></div>
+        
+        <!--All About Lily-->
+        <div id="all-about-lily" class="not-table"><br><h2>All About Lily</h2>
+        <p>Lily is the other kitty in the dynamic duo! She is <a href="#all-about-callie">Callie's</a> sister, however <em>much</em> more mellow! Lily is very pretty. She is mostly white with some gray and black patches on her. Lily is very calm and (surprisingly) loves belly rubs!</p></div>
+        
+        <br><h6 id="back-to-top"><a href="#top">Back to Top</a></h6>
+    </body>
+</html>
